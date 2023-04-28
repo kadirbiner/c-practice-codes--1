@@ -1,0 +1,197 @@
+#include <iostream>
+using namespace std;
+
+
+
+int main()
+{
+	setlocale(LC_ALL, "turkish");// T6ürkçe karakter için...
+
+
+
+
+/*
+
+//örnek 1: For Döngüsü kullanarak kullanıcıdan 5 sayı isteyen ve girilen bu sayıların toplamını ekranda gösteren C++ Kodları :
+
+int top = 0;
+int sayi;
+int i;
+cout << "lütfen 5 tane sayi giriniz:"<< endl;
+
+
+for ( i =0; i <5; i++)
+{
+	cin >> sayi;
+	top = top + sayi;
+}
+cout << endl;
+cout << "Girdiğiniz sayıların toplamı:"<<top;
+cout << endl << endl;
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+
+//örnek 2: Kullanıcıdan 10 tane sayı alarak bu sayıların ortalamasını gösteren C++ Kodları :
+
+int top = 0;
+int sayi;
+int i;
+int islem;
+cout << "lütfen 10 tane sayi giriniz:" << endl;
+
+for (i = 0; i < 10; i++)
+{
+	cin >> sayi;
+	top = top + sayi;
+}
+islem = top / 10;
+cout << endl;
+cout << "Girdiğiniz sayıların ortalamsı:" << islem << endl << endl;
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+//örnek 3:Girilen sayının asal mı? Asal değil mi? bulan C++ Kodları :
+
+int sayi;
+int sayac = 0;
+cout << "lütfen bir sayı giriniz:";
+
+cin >> sayi;
+if (sayi <= 1) {
+	cout << "Asal değildir." << endl;
+}
+else {
+	for (int j = 2; j < sayi; j++)
+	{
+		if (sayi % j == 0)
+		{
+			sayac++;
+			break;
+		}
+	}
+	if (sayac == 0)
+	{
+		cout << "Asaldır" << endl;
+	}
+	else
+		cout << "Asal Değildir." << endl;
+}
+
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /*
+
+
+  //örnek 4: 1 ile Kullanıcının girdiği sayıya kadar olan sayılar içerisinde bulunan asal sayıları listeleyen C++ Kodları :
+
+ int sayi;
+ cout << "Bir sayi giriniz: ";
+ cin >> sayi;
+
+ for (int sayac = 2; sayac <= sayi; sayac++)
+ {
+	 int asal, test;
+	 test = sayac;
+	 asal = 1;
+	 while (test-- > 2)
+		 if ((sayac % test) == 0)
+			 asal = 0;
+	 if (asal == 1)
+		 cout << sayac << " = Bir asal sayidir!\n";
+ }
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+// örnek 5: önceden belirlemiş bir şifreyi kullanıcıdan aldığı şifreyle karşılaştırıp doğruluğunu test eden c++ kodları.
+
+
+
+	int sifre = 123;
+	int kullaniciSifre;
+	cout << "Lütfen 3 haneli şifreyi giriniz:";
+	cin >> kullaniciSifre;
+	cout << endl << endl;
+	if (kullaniciSifre == sifre)
+	{
+		cout << "Girdiğiniz şifre : DOĞRU 'HOŞGELDİNİZ':)"<<endl<<endl;
+	}
+	else
+	{
+		cout << "Girdiğiniz şifre : YANLIŞ !LÜTFEN TEKRAR DENEYİNİZ! :("<<	endl<<endl;
+	}
+	*/
+
+
+ */
+
+
+return 0;
+}

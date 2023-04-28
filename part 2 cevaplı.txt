@@ -1,0 +1,160 @@
+#include <iostream>
+using namespace std;
+
+
+
+int main()
+{
+	setlocale(LC_ALL, "turkish");// Türkçe karakter için...
+
+
+
+/*
+
+// örnek 1:  Girilen sayının Tek yada Çift olduğunu gösteren C++ kodları :
+
+int sayi;
+cout << "lütfen bir sayi giriniz:";
+cin >> sayi;
+cout << endl;
+if (sayi % 2 == 0)
+{
+	cout << "sayı çifttir.";
+}
+else
+{
+	cout << "sayı tektir";
+}
+
+cout << endl << endl;
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+//örnek 2: C++ Kullanıcının girdiği sayı 0-100 arasındaysa geçerli, 0-100 arasında değilse Geçersiz sayı yazdıran C++ Kodları .
+
+int sayi;
+cout << "lütfen bir sayi giriniz:";
+cin >> sayi;
+cout << endl;
+if (sayi > 0 && sayi < 100)
+{
+	cout << "Girdiğiniz sayı 0-100 arasındadır.";
+}
+else
+{
+	cout << "Girdiğiniz sayı 0-100 arasında değildir.";
+}
+cout << endl << endl << endl;
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+// örnek 3: C++ For döngüsü ile 1-100 arası sayıları ekranda yazdıran C++ Kodları :
+
+for (int i = 1; i <= 100; i++)
+{
+	cout << i << endl;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+// örnek 4: 1-100 arası çift sayıları listeleyen C++ Kodları :
+
+	for (int i = 1; i <= 100; i++)
+	{
+		if (i % 2 == 0)
+		{
+			cout << i << endl;
+		}
+	}
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+//örnek 5:Klavyeden girilen sayıya kadar olan sayılar içinde tek olanları yazdıran C++ kodları:
+
+
+
+int sayi;
+cout << "lütfen bir sayı giriniz:";
+cin >> sayi;
+
+for (int i = 0; i < sayi; i++)
+{
+	if (i % 2 != 0)
+	{
+		cout << i << endl;
+	}
+}
+
+*/
+
+return 0;
+}

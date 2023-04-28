@@ -1,0 +1,206 @@
+#include <iostream>
+using namespace std;
+
+
+
+
+
+
+
+
+int main()
+{
+	setlocale(LC_ALL, "turkish");// Türkçe karakter için...
+
+	/*
+
+
+
+	// örnek 1: Switch kullanarak 4 işlem yapan basit bir hesap makinesi C++ Kodları :
+
+		int day;
+		int sayi1, sayi2;
+		cout << "lütfen iki tane sayi giriniz:" << endl;
+		cin >> sayi1 >> sayi2;
+
+		cout << endl << endl;
+
+		cout << "lütfen yapmak istediğiniz işlemi giriniz:"<< endl;
+		cout << "1-TOPLAMA:" << endl << "2-ÇIKARMA" << endl << "3-ÇARPMA" << endl << "4-BÖLME" << endl;
+		cin >> day;
+
+		switch(day)
+		{
+		case 1:cout << "sonuc:" << sayi1 + sayi2;
+			break;
+		case 2:cout << "sonuc:" << sayi1 - sayi2;
+			break;
+		case 3:cout << "sonuc:" << sayi1 * sayi2;
+			break;
+		case 4:cout << "sonuc:" << sayi1 / sayi2;
+			break;
+		default: cout << "hatalı kod girdiniz. :(";
+		};
+
+		cout << endl << endl << endl << endl;
+
+	*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/*
+	//örnek 2: 0-100 arası girilen puanı 0-5 arası nota çeviren C++ Kodları :
+
+		int not1 ;
+		cout << "Lütfen notunuzu giriniz:";
+		cin >> not1;
+
+		if (not1 <= 20 && not1 >= 0)
+		{
+			cout << "notunuzun karşılığı : 1";
+		}
+		else  if (not1 <= 40 && not1 > 20)
+		{
+			cout << "notunuzun karşılığı : 2";
+		}
+		else  if (not1 <= 60 && not1 >40)
+		{
+			cout << "notunuzun karşılığı : 3";
+		}
+
+		else  if (not1 <= 80 && not1 > 60)
+		{
+			cout << "notunuzun karşılığı : 4";
+		}
+
+		else  if (not1 <= 100 && not1 >=80)
+		{
+			cout << "notunuzun karşılığı : 5";
+		}
+		else
+		{
+			cout << "Böyle bir not bulunmamaktadır...";
+		}
+		cout << endl << endl << endl;
+	*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/*
+		//örnek 3: C++ Kodları :  Klavyeden girilen fiyat değerine % 18 kdv ekleyip kdvli fiyatını bulan ve ekrana yazan program:
+
+			int urunFiyat;
+			int kdv;
+			int islem;
+
+			cout << "lütfen ürünün fiyatını giriniz:";
+			cin >> urunFiyat;
+
+			kdv = (urunFiyat*18)/100;
+			islem = kdv + urunFiyat;
+
+			cout << "Girdiğiniz ürünün kdvsiz fiyatı:" << urunFiyat <<endl;
+			cout << "Girdiğiniz ürünün kdvli fiyatı:" << islem << endl;
+
+
+	*/
+
+
+
+
+
+
+
+
+
+
+
+
+	/*
+		//örnekl 4: C++ Kodları : For Döngüsü kullanrak Faktoriyel Hesaplama Örneği:
+
+		int sayi;
+
+		cout << "lütfen faktöriyelini alıcağınız sayıyı giriniz:";
+		cin >> sayi;
+		int fak = 1;
+
+		for (int i = 1; i <= sayi; i++)
+		{
+			fak = fak * i;
+
+
+		}
+		cout << fak;
+		cout << endl<<endl;
+
+	*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/*
+
+		//örnek 5:C++Kodları :  While Döngüsü kullanarak Faktoriyel Hesaplama
+
+
+
+	int sayi;
+
+	cout << "lütfen faktöriyelini alıcağınız sayıyı giriniz:";
+	cin >> sayi;
+	int fak=1;
+	int i=1;
+	while (i<=sayi)
+	{
+		fak = fak * i;
+		i++;
+	}
+	cout << fak;
+	cout << endl << endl;
+
+	*/
+
+
+	return 0;
+}

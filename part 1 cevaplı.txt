@@ -1,0 +1,142 @@
+#include <iostream>
+using namespace std;
+
+
+int main()
+{
+	setlocale(LC_ALL, "turkish");//Türkçe karakter için.
+	/*
+		// örnek 1:Klavyeden girilen iki sayıyı toplayan ve gösteren C++ kodları :
+
+		int sayi1, sayi2;
+		int islem;
+
+		cout << "lütfen iki tane sayı giriniz:"<< endl;
+		cin >> sayi1 >> sayi2;
+		islem = sayi1 + sayi2;
+		cout << "Girilen iki sayının toplamı:" << islem<<endl<<endl;
+	*/
+
+
+
+
+
+
+
+
+
+
+
+	/*
+		//örnek 2: Klavyeden girilen 2 sayının ortalamasını hesaplayan C++ kodları :
+
+		int sayi1, sayi2;
+		int islem;
+
+		cout << "lütfen iki tane sayı giriniz:" << endl;
+		cin >> sayi1 >> sayi2;
+		islem = (sayi1 + sayi2) / 2;
+		cout << "Girilen iki sayının ortalaması:" << islem << endl << endl;
+
+	*/
+
+
+
+
+
+
+
+
+
+
+
+	/*
+
+	// örnek 3:Girilen 3 yazılı notunun ortalamasını hesaplayan ve gösteren C++ kodları :
+
+
+		int not1, not2, not3;
+		int islem;
+		cout << "lütfen üç yazılı notunu giriniz:" << endl;
+		cin >> not1 >> not2 >> not3;
+		islem = (not1 + not2 + not3) / 3;
+		cout << "Yazılı ortalamanız:" << islem << endl << endl << endl;
+
+	*/
+
+
+
+
+
+
+
+
+
+
+
+	/*
+
+	// örnek 4: Girilen yazılı ortalamasını hesaplayarak ortalama 50′ den küçükse Kaldı, değilse Geçti yazdıran C++ kodları:
+
+
+
+		int not1, not2, not3;
+		int ortalama;
+		cout << "lütfen üç yazılı notunu giriniz:" << endl;
+		cin >> not1 >> not2 >> not3;
+		ortalama = (not1 + not2 + not3) / 3;
+		cout << endl;
+		if (ortalama >= 50)
+		{
+			cout << "Tebrikler geçtiniz. :)";
+		}
+		else
+		{
+			cout << "Malesef kaldınız. :(";
+		}
+		cout << endl << endl << endl;
+
+	*/
+
+
+
+
+
+
+
+
+
+
+
+	/*
+	// örnek 5:C++ Girilen sayının 3′ e ve 5′ e tam bölünüp bülünmediğini gösteren C++ kodları :
+
+
+		int sayi;
+		cout << "lütfen bir sayi giriniz:" ;
+		cin >> sayi;
+		cout << endl;
+		if (sayi % 3 == 0 && sayi % 5 == 0)
+		{
+			cout << "sayı 3 ve 5 tam bölünür.";
+		}
+		else if (sayi % 3 == 0 && sayi % 5 != 0)
+		{
+			cout << "sayı 3 tam bölünür 5 tam bölünmez.";
+		}
+		else if (sayi % 3 != 0 && sayi % 5 == 0)
+		{
+			cout << "sayı 5 tam bölünür 3 tam bölünmez.";
+		}
+		else
+		{
+			cout << "sayı 3 de 5'e de tam bölünmez.";
+		}
+		cout << endl << endl << endl;
+	*/
+
+
+
+
+	return 0;
+}
